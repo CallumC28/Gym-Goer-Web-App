@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+>
+  <!-- Define a gold gradient for the trophy -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFC107" />
+    </linearGradient>
+
+    <!-- Optional: simple drop shadow filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Circular badge background -->
+  <circle
+    cx="32"
+    cy="32"
+    r="30"
+    fill="#f2f2f2"
+  />
+
+  <!-- Trophy icon scaled and centered within 64x64 box 
+       (The original trophy path from Bootstrap Icons, scaled up and repositioned.) -->
+  <g filter="url(#shadow)">
+    <path
+      d="M20.5,6.5a1,1,0,0,0-1-1H18a1,1,0,0,0-1,1V8c0-1.105.895-2,2-2s2,.895,2,2V6.5ZM43,5.5h-1.5a1,1,0,0,0-1,1V8c0-1.105.895-2,2-2s2,.895,2,2V6.5A1,1,0,0,0,43,5.5ZM24.5,17c0-.828.672-1.5,1.5-1.5h12c.828,0,1.5,.672,1.5,1.5V22c0,2.485-2.015,4.5-4.5,4.5h-6c-2.485,0-4.5-2.015-4.5-4.5V17ZM22,10h20c0,2.485-2.015,4.5-4.5,4.5h-11C24.015,14.5,22,12.485,22,10ZM26,27.5h12c0,2.761-2.238,5-5,5h-2c-2.762,0-5-2.239-5-5ZM32,32.5c3.313,0,6-2.687,6-6h2c0,4.418-3.582,8-8,8s-8-3.582-8-8h2C26,29.813,28.687,32.5,32,32.5ZM31,34v5.5c0,1.105.895,2,2,2s2-.895,2-2V34h2v5.5c0,2.209-1.791,4-4,4s-4-1.791-4-4V34h2Z"
+      fill="url(#goldGradient)"
+      transform="translate(0, 0) scale(1.5) translate(0, 4)"
+    />
+  </g>
+</svg>
