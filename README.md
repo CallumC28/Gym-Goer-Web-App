@@ -16,7 +16,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 - **Frontend:** HTML, CSS/TailWind, JavaScript
 - **Backend:** PHP (vanilla PHP)
 - **Machine Learning:** Phpml library (SVR, Linear Regression)
-- **Database:** MySQL
+- **Database:** MySQL via XAMPP
 - **Package Manager:** Composer
 
 ## 📦 Installation
