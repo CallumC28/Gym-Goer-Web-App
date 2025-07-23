@@ -1,0 +1,20 @@
+{
+    "name": "callum/project_1",
+    "description": "Fitness tracker Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Callum\\Project1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Callum Cummins"
+        }
+    ],
+    "require": {
+        "php-ai/php-ml": "^0.10.0",
+        "rubix/ml": "^2.5"
+    }
+}

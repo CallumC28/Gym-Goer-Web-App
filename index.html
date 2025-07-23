@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="assets/Logo_Fitness.png" type="image/x-icon">
+    <title>| FITNESS TRACKER |</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/Logo_Fitness.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#features">APP FEATURES</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="header">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>TRACK YOUR PROGRESS</h1>
+          <h2>FOR BETTER RESULTS &amp; PEACE OF MIND</h2>
+          <div class="header__btn">
+              <a href="login.html">
+                <button class="btn btn__primary">Log in / Sign up</button>
+              </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <h2 class="section__header">OUR GOAL</h2>
+        <p class="section__description">
+          To provide both new and experienced fitness orientatated individuals the tools
+          to track and have a visual representation of their progress in fitness.
+        </p>
+      </div>
+      <div class="about__grid">
+        <div class="about__card">
+          <h4>LOG WORKOUTS</h4>
+          <p>
+            Use our workout logger to record your progress and see if you are 
+            improving over a period of time.
+          </p>
+        </div>
+        <div class="about__card">
+          <h4>VISUALISE PROGRESS</h4>
+          <p>
+            After tracking your progress you can see your improvment over a period of time 
+            via our graphs.
+          </p>
+        </div>
+        <div class="about__card">
+          <h4>FREE TO USE</h4>
+          <p>
+            We believe that everyone should have access to high-quality fitness
+            information and apps without breaking the bank, and requires no Email
+            to sign up.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="session">
+      <div class="session__card">
+        <h4>TRACK YOUR BODY WEIGHT</h4>
+        <p>
+          Sculpt your physique and build muscle mass with our specialised
+          bodybuilding programs at FitPhysique.
+        </p>
+      </div>
+      <div class="session__card">
+        <h4>FIND OUT YOUR CALORIC NEEDS</h4>
+        <p>
+          Use our BMR calculator to find out what your caloric needs are,
+          wether your goal is to gain or lose weight this calculator will 
+          be a great starting point.
+        </p>
+      </div>
+      <div class="session__card">
+        <h4>INCLUDES WEATHER APP</h4>
+        <p>
+          Wanna go for a run but not sure of the forecast? Simply enter your town/city 
+          and get the current weather forecast.
+        </p>
+      </div>
+      <div class="session__card">
+        <h4>PREDICTION MODEL</h4>
+        <p>
+          Get predictions for future progress based on your current rate of improvment, 
+          given appropriate historical entries for the given exercise.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container features__container" id="features">
+      <h2 class="section__header ">APP FEATURES</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper text-center">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="fas fa-dumbbell text-4xl text-green-500"></i>
+              <p>Track your reps, sets, and PRs effortlessly.</p>
+              <h4>Log Workouts</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-calculator-line text-4xl text-blue-500"></i>
+              <p>Understand your body's needs to fuel your goals.</p>
+              <h4>BMR Calculator</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-bar-chart-line text-4xl text-yellow-500"></i>
+              <p>See how far you've come with data insights.</p>
+              <h4>Progression</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-clipboard-line text-4xl text-black-400"></i>
+              <p>Review and summarise your exercises.</p>
+              <h4>Exercise Summary</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-calendar-line text-4xl text-purple-500"></i>
+              <p>Plan and organise your workouts.</p>
+              <h4>Calendar</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-scales-line text-4xl text-purple-500"></i>
+              <p>Stay on top of your weight goals.</p>
+              <h4>Log Body Weight</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-sun-cloudy-line text-4xl text-orange-500"></i>
+              <p>Plan outdoor workouts with live updates.</p>
+              <h4>Weather</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-line-chart-line text-4xl text-pink-500"></i>
+              <p>Get realistic goals for each lift based on your data.</p>
+              <h4>Predictions</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-run-line text-4xl text-red-500"></i>
+              <p>Plan your runs efficiently.</p>
+              <h4>Plan Your Run</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-trophy-line text-4xl text-yellow-200"></i>
+              <p>See others' heaviest lifts and compete.</p>
+              <h4>Leaderboard</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-disc-line text-4xl text-yellow-200"></i>
+              <p>Explore educational videos for guidance.</p>
+              <h4>Educational Videos</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-body-scan-line text-4xl text-pink-200"></i>
+              <p>Visualise muscle activation with 3D models.</p>
+              <h4>3D Model</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-medal-line text-4xl text-yellow-400"></i>
+              <p>Track your milestones and achievements.</p>
+              <h4>Achievements</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-flag-line text-4xl text-red-400"></i>
+              <p>Set and track personal fitness goals.</p>
+              <h4>Personal Goals</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="features__card">
+              <i class="ri-list-check-2 text-4xl text-blue-500"></i>
+              <p>Use pre-made workout templates for efficiency.</p>
+              <h4>Workout Templates</h4>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="assets/Logo_Fitness.png" alt="logo" /></a>
+          </div>
+          <p>
+            Welcome to FitnessTracker, where we believe that every journey to
+            fitness is unique and empowering.
+          </p>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                54 Main Avenue<br />Brixton, London
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +44 7726846240
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span>
+                info@fitnesstracker.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 CCC. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JScripts/script.js"></script>
+  </body>
+</html>
