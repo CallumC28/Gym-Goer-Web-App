@@ -60,7 +60,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 ### AI-Powered Prediction
 ![AI Prediction](screenshots/Screenshot(10).png)
 
-### AI-Powered Prediction
+### AI-Powered Prediction - choose which model you prefer
 ![AI](screenshots/AI_Modal.png)
 
 ### Progress Page
