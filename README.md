@@ -2,7 +2,7 @@
 
 A full-stack web application built to help gym-goers log workouts, track progress, and receive AI-powered exercise predictions. Designed to be simple, responsive, and effective for users aiming to monitor their fitness journey.
 
-## Features
+## Key Features
 
 - 🏋️ Log exercises (sets, reps, weight) and body weight
 - 📊 Visualise progress with interactive charts
