@@ -47,5 +47,5 @@ A full-stack web application built to help gym-goers log workouts, track progres
    http://localhost/Gym-Goer-Web-App **(Will be different for you)**
    
 ## 📚 Dependencies
-   **php-ai/php-ml** – Machine learning library for PHP
-   **Composer** – PHP dependency management
+ -  **php-ai/php-ml** – Machine learning library for PHP
+ -  **Composer** – PHP dependency management
