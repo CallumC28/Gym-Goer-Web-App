@@ -14,9 +14,9 @@ A full-stack web application built to help gym-goers log workouts, track progres
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS/TailWind, JavaScript
 - **Backend:** PHP (vanilla PHP)
-- **Machine Learning:** Phpml library (SVR)
+- **Machine Learning:** Phpml library (SVR, Linear Regression)
 - **Database:** MySQL
 - **Package Manager:** Composer
 
@@ -24,5 +24,5 @@ A full-stack web application built to help gym-goers log workouts, track progres
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/gymgoer-fitness-tracker.git
-   cd gymgoer-fitness-tracker
+   git clone https://github.com/CallumC28/Gym-Goer-Web-App.git
+   cd Gym-Goer-Web-App
