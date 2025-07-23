@@ -1,2 +1,28 @@
 # Gym-Goer-Web-App
-A full-stack web application designed to help gym-goers log workouts, track body weight, and visualize progress over time. Users can record exercises, sets, reps, and weights, with data stored securely in a SQL database. The app features interactive charts, a leaderboard, and AI-powered predictions using Support Vector Regression (SVR) to suggest future workout targets. Built with PHP, SQL, and JavaScript, the app focuses on usability, performance, and cross-platform accessibility.
+# GymGoer Fitness Tracker Web App
+
+A full-stack web application built to help gym-goers log workouts, track progress, and receive AI-powered exercise predictions. Designed to be simple, responsive, and effective for users aiming to monitor their fitness journey.
+
+## 🚀 Features
+
+- 🏋️ Log exercises (sets, reps, weight) and body weight
+- 📊 Visualize progress with interactive charts
+- 🧠 AI predictions using Support Vector Regression (SVR) with Phpml
+- 🏆 Leaderboard for top lifts across users
+- 🔐 Secure user registration and login system
+- 🌐 Clean, responsive UI suitable for all devices
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP (vanilla PHP)
+- **Machine Learning:** Phpml library (SVR)
+- **Database:** MySQL
+- **Package Manager:** Composer
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/gymgoer-fitness-tracker.git
+   cd gymgoer-fitness-tracker
