@@ -49,7 +49,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 ## 🖼️ Screenshots
 
 ### Dash
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png) ![Dashboard](screenshots/dashboard2.png)
 
 ### Weight Logging
 ![Exercise Log](screenshots/Screenshot(9).png)
