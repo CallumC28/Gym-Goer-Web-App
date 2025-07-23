@@ -1,4 +1,3 @@
-# Gym-Goer-Web-App
 # GymGoer Fitness Tracker Web App
 
 A full-stack web application built to help gym-goers log workouts, track progress, and receive AI-powered exercise predictions. Designed to be simple, responsive, and effective for users aiming to monitor their fitness journey.
