@@ -76,3 +76,10 @@ A full-stack web application built to help gym-goers log workouts, track progres
 ## 📚 Dependencies
  -  **php-ai/php-ml** – Machine learning library for PHP
  -  **Composer** – PHP dependency management
+
+## 🔧 Future Improvements that could be made
+ -  **Advanced Analytics:** Introduce weekly/monthly performance summaries or progress trends.
+ -  **Smarter AI:** Train models on larger datasets or use more advanced algorithms (e.g. Random Forest, Neural Networks).
+ -  **User Notes:** Allow users to add comments or notes to each workout (e.g. "Felt strong today" or "Tried new form").
+ -  **Nutrition Tools:** Add a macro tracker to support dieting goals (e.g. Could be done with an API or hard coded dependant on if you want to pull food data from a data base like Fitness Pal does)
+
