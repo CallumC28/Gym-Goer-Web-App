@@ -49,16 +49,16 @@ A full-stack web application built to help gym-goers log workouts, track progres
 ## 🖼️ Screenshots
 
 ### Dash
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ### Weight Logging
-![Exercise Log](assets/Screenshot(9).png)
+![Exercise Log](Screenshots/Screenshot(9).png)
 
 ### Weather API intergration
-![Progress Chart](assets/Screenshot(8).png)
+![Progress Chart](Screenshots/Screenshot(8).png)
 
 ### AI-Powered Prediction
-![AI Prediction](assets/Screenshot(10).png)
+![AI Prediction](Screenshots/Screenshot(10).png)
    
 ## 📚 Dependencies
  -  **php-ai/php-ml** – Machine learning library for PHP
