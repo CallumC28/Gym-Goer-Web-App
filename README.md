@@ -8,6 +8,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 - 📊 Visualise progress with interactive charts
 - 🧠 AI predictions using Support Vector Regression (SVR) with Phpml
 - 🏆 Leaderboard for top lifts across users
+- ☁️ Weather API intergration for planning outdoor activities
 - 🔐 Secure user registration and login system
 - 🌐 Clean, responsive UI suitable for all devices
 
