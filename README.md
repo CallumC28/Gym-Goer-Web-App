@@ -5,7 +5,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 ## Features
 
 - 🏋️ Log exercises (sets, reps, weight) and body weight
-- 📊 Visualize progress with interactive charts
+- 📊 Visualise progress with interactive charts
 - 🧠 AI predictions using Support Vector Regression (SVR) with Phpml
 - 🏆 Leaderboard for top lifts across users
 - 🔐 Secure user registration and login system
@@ -44,7 +44,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
    Place the project folder inside your htdocs/ directory (XAMPP).
    
    In your browser, go to:
-   http://localhost/Gym-Goer-Web-App
+   http://localhost/Gym-Goer-Web-App **(Will be different for you)**
    
 ## 📚 Dependencies
    **php-ai/php-ml** – Machine learning library for PHP
