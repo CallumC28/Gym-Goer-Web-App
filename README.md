@@ -25,3 +25,27 @@ A full-stack web application built to help gym-goers log workouts, track progres
    ```bash
    git clone https://github.com/CallumC28/Gym-Goer-Web-App.git
    cd Gym-Goer-Web-App
+
+2. ## Install Dependencies with Composer ##
+   Make sure you have Composer installed on your system.
+   ```bash
+   composer install
+
+3. ## Set Up the MySQL Database ##
+   Launch XAMPP and start Apache and MySQL.
+   
+   Open phpMyAdmin and create a new database (e.g. tracker).
+   
+   Import the SQL schema file located in the /database/ directory.
+   
+   Update database credentials in config.php to match your XAMPP setup.
+   
+   4. Run the App
+   Place the project folder inside your htdocs/ directory (XAMPP).
+   
+   In your browser, go to:
+   http://localhost/Gym-Goer-Web-App
+   
+## 📚 Dependencies
+   **php-ai/php-ml** – Machine learning library for PHP
+   **Composer** – PHP dependency management
