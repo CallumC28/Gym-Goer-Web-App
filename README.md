@@ -1,2 +1,2 @@
 # Gym-Goer-Web-App
-A full-stack web application designed to help gym-goers log workouts, track body weight, and visualise progress over time with the help of AI. Done as my final year project for my Computer Science Degree.
+A full-stack web application designed to help gym-goers log workouts, track body weight, and visualize progress over time. Users can record exercises, sets, reps, and weights, with data stored securely in a SQL database. The app features interactive charts, a leaderboard, and AI-powered predictions using Support Vector Regression (SVR) to suggest future workout targets. Built with PHP, SQL, and JavaScript, the app focuses on usability, performance, and cross-platform accessibility.
