@@ -58,7 +58,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 ![Progress Chart](screenshots/Screenshot(8).png)
 
 ### AI-Powered Prediction
-![AI Prediction](screenshots/Screenshot(10).png)
+![AI Prediction](Gym-Goer-Web-App/screenshots/Screenshot(10).png)
    
 ## 📚 Dependencies
  -  **php-ai/php-ml** – Machine learning library for PHP
