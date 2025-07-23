@@ -45,6 +45,20 @@ A full-stack web application built to help gym-goers log workouts, track progres
    
    In your browser, go to:
    http://localhost/Gym-Goer-Web-App **(Will be different for you)**
+
+## 🖼️ Screenshots
+
+### Dash
+![Dashboard](screenshots/dashboard.png)
+
+### Weight Logging
+![Exercise Log](assets/Screenshot(9).png)
+
+### Weather API intergration
+![Progress Chart](assets/Screenshot(8).png)
+
+### AI-Powered Prediction
+![AI Prediction](assets/Screenshot(10).png)
    
 ## 📚 Dependencies
  -  **php-ai/php-ml** – Machine learning library for PHP
