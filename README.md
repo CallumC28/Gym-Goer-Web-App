@@ -48,17 +48,29 @@ A full-stack web application built to help gym-goers log workouts, track progres
 
 ## 🖼️ Screenshots
 
-### Dash
-![Dashboard](screenshots/dashboard.png) ![Dashboard](screenshots/dashboard2.png)
+### Dashboard
+![Dashboard](screenshots/dashboard.png) 
 
-### Weight Logging
-![Exercise Log](screenshots/Screenshot(9).png)
+### BMR Calculator
+![BMR Calculator](screenshots/Screenshot(9).png)
 
 ### Weather API intergration
 ![Progress Chart](screenshots/Screenshot(8).png)
 
 ### AI-Powered Prediction
-![AI Prediction](Gym-Goer-Web-App/screenshots/Screenshot(10).png)
+![AI Prediction](screenshots/Screenshot(10).png)
+
+### AI-Powered Prediction
+![AI](screenshots/AI_Modal.png)
+
+### Progress Page
+![Progress](screenshots/progress.png)
+
+### LeaderBoard
+![LeaderBoard](screenshots/leaderboard.png)
+
+### Profile Page
+![LeaderBoard](screenshots/profile.png)
    
 ## 📚 Dependencies
  -  **php-ai/php-ml** – Machine learning library for PHP
