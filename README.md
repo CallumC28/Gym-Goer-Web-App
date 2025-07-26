@@ -20,6 +20,18 @@ A full-stack web application built to help gym-goers log workouts, track progres
 - **Database:** MySQL via XAMPP
 - **Package Manager:** Composer
 
+## How It Works
+
+1. **Data Collection**: The app fetches exercise logs for the selected user and chosen exercise.
+2. **Data Preprocessing**: The data is filtered to retain only the top weight lifted each day.
+3. **Prediction Algorithm**:
+   - **Smoothing**: The data is smoothed using a simple moving average (SMA) to reduce noise and identify trends.
+   - **Linear Regression**: A linear regression model is applied to predict future performance based on historical data.
+   - **Multi-Regression**: A multi-step regression model predicts future weight, reps, and sets, with adjustments for target goals.
+4. **Target Achievement**: The model calculates the estimated time it will take to achieve the user's target weight, reps, or sets.
+5. **Visualisation**: A dynamic chart is generated to show both historical and predicted data, allowing users to visually track their progress.
+
+
 ## 📦 Installation
 
 1. **Clone the repository:**
