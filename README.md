@@ -20,16 +20,28 @@ A full-stack web application built to help gym-goers log workouts, track progres
 - **Database:** MySQL via XAMPP
 - **Package Manager:** Composer
 
-## How It Works
+## How the AI Works
 
-1. **Data Collection**: The app fetches exercise logs for the selected user and chosen exercise.
-2. **Data Preprocessing**: The data is filtered to retain only the top weight lifted each day.
-3. **Prediction Algorithm**:
-   - **Smoothing**: The data is smoothed using a simple moving average (SMA) to reduce noise and identify trends.
-   - **Linear Regression**: A linear regression model is applied to predict future performance based on historical data.
-   - **Multi-Regression**: A multi-step regression model predicts future weight, reps, and sets, with adjustments for target goals.
-4. **Target Achievement**: The model calculates the estimated time it will take to achieve the user's target weight, reps, or sets.
-5. **Visualisation**: A dynamic chart is generated to show both historical and predicted data, allowing users to visually track their progress.
+1. **Data Collection**: The app fetches the user's exercise logs from the database.
+2. **Data Filtering**: Only the highest weight lifted per day is considered for prediction.
+3. **Feature Engineering**: The data is processed to calculate user-specific progression rates, workout consistency, and volume adjustments.
+4. **SVR Model Training**: A Support Vector Regression model is trained using the processed data to predict future workout performance.
+5. **Prediction Calculation**: Multiple prediction models are blended (short-term, long-term, and SVR) to generate a final prediction for weight, reps, and sets.
+6. **Physiological Constraints**: The model applies constraints to ensure predictions are realistic and based on the user's past performance.
+7. **Prediction Output**: The system outputs predicted weight, reps, and sets along with confidence intervals and estimated time to achieve the target goals.
+8. **Visualization**: The results are displayed on dynamic charts, including confidence intervals, historical data, and predictions.
+9. **Exporting Data**: Users can export their exercise data and prediction results as CSV or PDF files.
+
+## Example Prediction Output
+
+The prediction output provides the following:
+
+- **Predicted Weight**: The estimated weight the user will be able to lift in the specified time frame.
+- **Confidence Interval**: The 99% confidence interval for the predicted weight.
+- **Predicted Reps and Sets**: Estimated reps and sets for the predicted weight.
+- **Daily Improvement Rate**: The average daily improvement rate based on historical data.
+- **Consistency Factor**: The user's consistency in training, expressed as a percentage.
+- **Volume Adjustment Factor**: Adjustments made to account for changes in training volume over time.
 
 
 ## 📦 Installation
