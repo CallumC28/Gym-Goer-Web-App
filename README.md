@@ -29,8 +29,8 @@ A full-stack web application built to help gym-goers log workouts, track progres
 5. **Prediction Calculation**: Multiple prediction models are blended (short-term, long-term, and SVR) to generate a final prediction for weight, reps, and sets.
 6. **Physiological Constraints**: The model applies constraints to ensure predictions are realistic and based on the user's past performance.
 7. **Prediction Output**: The system outputs predicted weight, reps, and sets along with confidence intervals and estimated time to achieve the target goals.
-8. **Visualization**: The results are displayed on dynamic charts, including confidence intervals, historical data, and predictions.
-9. **Exporting Data**: Users can export their exercise data and prediction results as CSV or PDF files.
+8. **Visualisation**: The results are displayed on dynamic charts, including confidence intervals, historical data, and predictions.
+9. **Exporting Data**: Users can export their exercise data and prediction results as a CSV file.
 
 ## Example Prediction Output
 
