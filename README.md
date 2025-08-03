@@ -12,7 +12,7 @@ A full-stack web application built to help gym-goers log workouts, track progres
 - 🔐 Secure user registration and login system
 - 🌐 Clean, responsive UI suitable for all devices
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML, CSS/TailWind, JavaScript
 - **Backend:** PHP (vanilla PHP)
@@ -44,7 +44,7 @@ The prediction output provides the following:
 - **Volume Adjustment Factor**: Adjustments made to account for changes in training volume over time.
 
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -71,7 +71,7 @@ The prediction output provides the following:
    In your browser, go to:
    http://localhost/Gym-Goer-Web-App **(Will be different for you)**
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png) 
@@ -97,11 +97,11 @@ The prediction output provides the following:
 ### Profile Page
 ![LeaderBoard](screenshots/profile.png)
    
-## 📚 Dependencies
+## Dependencies
  -  **php-ai/php-ml** – Machine learning library for PHP
  -  **Composer** – PHP dependency management
 
-## 🔧 Future Improvements that could be made
+## Future Improvements that could be made
  -  **Advanced Analytics:** Introduce weekly/monthly performance summaries or progress trends.
  -  **Smarter AI:** Train models on larger datasets or use more advanced algorithms (e.g. Random Forest, Neural Networks).
  -  **User Notes:** Allow users to add comments or notes to each workout (e.g. "Felt strong today" or "Tried new form").
